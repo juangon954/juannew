@@ -4,30 +4,44 @@ html, body {
 }
 
 header {
-  background-color:black;
-  position: fixed;
-  width: 2000px;
-  z-index:2;
+  background-color:
+  position: relative;
+  width: 100%;
+  z-index:1;
   border-color: white;
   border-style: solid;
-  border-width: thin;
+  border-width: medium;
+  
+
+
+
 
 }
 
 nav {
   margin: 0;
-  padding: 9px 0;
-  border-width: thick;
+  padding: 2px 0;
+  border-width: 1px;
+  background-color: black;
+  background-image: url('http://eemcnow.net/wp-content/uploads/old-wood-texture-wall-vision_6563758.jpg');
+  background-repeat: no-repeat;
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+
+
+
 }
 
 nav li {
   color: white;
-  font-family: 'Verdana', sans-serif;
+  font-family:sans-serif;
   font-weight: 600;
   font-size: 20px;
   display: inline;
   width: 80px;
   word-spacing: 25px;
+
 
 }
 
@@ -35,22 +49,29 @@ main {
   text-align: center;
   position: relative;
   top: 80px;
+
 }
 
 main h1 {
-  color: #3D743F;
-  font-family: 'Great Vibes';
-  font-weight: 600;
-  font-size: 50px;
+  color: #306754  ;
+  font-weight: 700;
+  font-family: Times;
+
+  font-size: 72px;
   margin-top: 0px;
   padding-top: 80px;
   margin-bottom: 80px;
   text-transform: uppercase;
-  text-shadow: 4px 4px 3px black;
+  text-shadow:
+  -2px -1px 0 #000,
+  1px -0px 0 #000,
+  -2px 1px 0 #000,
+  1px 1px 0 #000;
+}
 }
 
 footer {
-  background-color: #black;
+  background-color:white;
   color: #fff;
   padding: 25px 0;
   position: fixed;
@@ -58,6 +79,8 @@ footer {
   bottom: 0;
   width: 100%;
   height:10px;
+  color: black;
+  display:inline-block;
 
 
 
@@ -70,6 +93,9 @@ footer p {
 
 }
 
+.mandala{
+  height: 4px;
+}
 .container {
   max-width: 940px;
   margin: 0 auto;
@@ -84,29 +110,29 @@ footer p {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+ border:solid;
+ border-color: black;
+font-family: 'Raleway', sans-serif;
 }
 
 .btn-main {
-  background-color: #333;
+  background-color: black;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1.3px;
-  padding: 16px 40px;
+  padding: 19px 40px;
   text-decoration: none;
-  text-transform: uppercase;
-}
 
-.btn-default {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 10px;
-  letter-spacing: 1.3px;
-  padding: 10px 20px;
-  text-decoration: none;
   text-transform: uppercase;
-  margin-bottom: 20px;
+
+}
+.img{
+  padding: 50px;
+  text-align: center;
+  display: inline-flex;
+
 }
 
 .supporting {
@@ -114,12 +140,13 @@ footer p {
   padding-bottom: 100px;
 }
 
-.supporting .col {
+ .col {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   display: inline-block;
   width: 200px;
   height:200px;
+  padding-bottom: 40px;
 
 }
 
@@ -141,7 +168,7 @@ footer p {
   margin-bottom: 20px;
 }
 
-.supporting a {
+.a {
   background-color: white;
   color: #333333;
   font-family: 'Raleway', sans-serif;
@@ -151,8 +178,8 @@ footer p {
   text-decoration: none;
   text-transform: uppercase;
   padding: 10px;
-  margin-bottom: 10px;
-  border: 2px solid #333333;
+  margin-bottom: 0px;
+  border: 0px solid #333333;
 }
 
 @media (max-width: 500px) {
@@ -165,11 +192,11 @@ footer p {
     width: 100%;
   }
 }
-a { color:transparent; } /* Globally */
+
 
 /* Each state */
 
-a:visited { text-decoration: none; color:red; }
-a:hover { text-decoration: none; color:blue; }
-a:focus { text-decoration: none; color:yellow; }
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
 a:hover, a:active { text-decoration: none; color:black }
