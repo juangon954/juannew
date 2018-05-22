@@ -38,7 +38,7 @@ main {
 }
 
 main h1 {
-  color: white;
+  color: #3D743F;
   font-family: 'Great Vibes';
   font-weight: 600;
   font-size: 50px;
@@ -46,7 +46,7 @@ main h1 {
   padding-top: 80px;
   margin-bottom: 80px;
   text-transform: uppercase;
-  text-shadow: 4px 4px 5px black;
+  text-shadow: 4px 4px 3px black;
 }
 
 footer {
